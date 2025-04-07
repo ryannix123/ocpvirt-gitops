@@ -14,114 +14,114 @@ metadata:
           "min": 2147483648
         }
       ]
-  resourceVersion: '315872'
-  name: fedora-harlequin-bug-96
-  uid: c93d3167-6f88-4229-9ad7-6d05045c0ada
-  creationTimestamp: '2025-04-06T21:08:35Z'
+  resourceVersion: '762148'
+  name: fedora-demo
+  uid: 0b6e57b8-5b5a-4304-b62d-5109c11d320a
+  creationTimestamp: '2025-04-07T11:12:32Z'
   generation: 1
   managedFields:
-    - apiVersion: kubevirt.io/v1
-      fieldsType: FieldsV1
-      fieldsV1:
-        'f:metadata':
-          'f:annotations':
-            .: {}
-            'f:vm.kubevirt.io/validations': {}
-          'f:labels':
-            .: {}
-            'f:app': {}
-            'f:kubevirt.io/dynamic-credentials-support': {}
-            'f:vm.kubevirt.io/template': {}
-            'f:vm.kubevirt.io/template.namespace': {}
-            'f:vm.kubevirt.io/template.revision': {}
-            'f:vm.kubevirt.io/template.version': {}
-        'f:spec':
+  - apiVersion: kubevirt.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      'f:metadata':
+        'f:annotations':
           .: {}
-          'f:dataVolumeTemplates': {}
-          'f:runStrategy': {}
-          'f:template':
-            .: {}
-            'f:metadata':
-              .: {}
-              'f:annotations':
-                .: {}
-                'f:vm.kubevirt.io/flavor': {}
-                'f:vm.kubevirt.io/os': {}
-                'f:vm.kubevirt.io/workload': {}
-              'f:labels':
-                .: {}
-                'f:kubevirt.io/domain': {}
-                'f:kubevirt.io/size': {}
-                'f:network.kubevirt.io/headlessService': {}
-            'f:spec':
-              .: {}
-              'f:architecture': {}
-              'f:domain':
-                .: {}
-                'f:cpu':
-                  .: {}
-                  'f:cores': {}
-                  'f:sockets': {}
-                  'f:threads': {}
-                'f:devices':
-                  .: {}
-                  'f:disks': {}
-                  'f:interfaces': {}
-                  'f:rng': {}
-                'f:features':
-                  .: {}
-                  'f:smm':
-                    .: {}
-                    'f:enabled': {}
-                'f:firmware':
-                  .: {}
-                  'f:bootloader':
-                    .: {}
-                    'f:efi': {}
-                'f:memory':
-                  .: {}
-                  'f:guest': {}
-              'f:networks': {}
-              'f:terminationGracePeriodSeconds': {}
-              'f:volumes': {}
-      manager: Mozilla
-      operation: Update
-      time: '2025-04-06T21:08:35Z'
-    - apiVersion: kubevirt.io/v1
-      fieldsType: FieldsV1
-      fieldsV1:
-        'f:metadata':
-          'f:annotations':
-            'f:kubevirt.io/latest-observed-api-version': {}
-            'f:kubevirt.io/storage-observed-api-version': {}
-          'f:finalizers':
-            .: {}
-            'v:"kubevirt.io/virtualMachineControllerFinalize"': {}
-      manager: virt-controller
-      operation: Update
-      time: '2025-04-06T21:08:35Z'
-    - apiVersion: kubevirt.io/v1
-      fieldsType: FieldsV1
-      fieldsV1:
-        'f:status':
-          'f:printableStatus': {}
-          'f:runStrategy': {}
-          'f:conditions': {}
+          'f:vm.kubevirt.io/validations': {}
+        'f:labels':
           .: {}
-          'f:ready': {}
-          'f:volumeSnapshotStatuses': {}
-          'f:observedGeneration': {}
-          'f:created': {}
-          'f:desiredGeneration': {}
-      manager: virt-controller
-      operation: Update
-      subresource: status
-      time: '2025-04-06T21:09:53Z'
-  namespace: vm
+          'f:app': {}
+          'f:kubevirt.io/dynamic-credentials-support': {}
+          'f:vm.kubevirt.io/template': {}
+          'f:vm.kubevirt.io/template.namespace': {}
+          'f:vm.kubevirt.io/template.revision': {}
+          'f:vm.kubevirt.io/template.version': {}
+      'f:spec':
+        .: {}
+        'f:dataVolumeTemplates': {}
+        'f:runStrategy': {}
+        'f:template':
+          .: {}
+          'f:metadata':
+            .: {}
+            'f:annotations':
+              .: {}
+              'f:vm.kubevirt.io/flavor': {}
+              'f:vm.kubevirt.io/os': {}
+              'f:vm.kubevirt.io/workload': {}
+            'f:labels':
+              .: {}
+              'f:kubevirt.io/domain': {}
+              'f:kubevirt.io/size': {}
+              'f:network.kubevirt.io/headlessService': {}
+          'f:spec':
+            .: {}
+            'f:architecture': {}
+            'f:domain':
+              .: {}
+              'f:cpu':
+                .: {}
+                'f:cores': {}
+                'f:sockets': {}
+                'f:threads': {}
+              'f:devices':
+                .: {}
+                'f:disks': {}
+                'f:interfaces': {}
+                'f:rng': {}
+              'f:features':
+                .: {}
+                'f:smm':
+                  .: {}
+                  'f:enabled': {}
+              'f:firmware':
+                .: {}
+                'f:bootloader':
+                  .: {}
+                  'f:efi': {}
+              'f:memory':
+                .: {}
+                'f:guest': {}
+            'f:networks': {}
+            'f:terminationGracePeriodSeconds': {}
+            'f:volumes': {}
+    manager: Mozilla
+    operation: Update
+    time: '2025-04-07T11:12:32Z'
+  - apiVersion: kubevirt.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      'f:metadata':
+        'f:annotations':
+          'f:kubevirt.io/latest-observed-api-version': {}
+          'f:kubevirt.io/storage-observed-api-version': {}
+        'f:finalizers':
+          .: {}
+          'v:"kubevirt.io/virtualMachineControllerFinalize"': {}
+    manager: virt-controller
+    operation: Update
+    time: '2025-04-07T11:12:32Z'
+  - apiVersion: kubevirt.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      'f:status':
+        'f:printableStatus': {}
+        'f:runStrategy': {}
+        'f:conditions': {}
+        .: {}
+        'f:ready': {}
+        'f:volumeSnapshotStatuses': {}
+        'f:observedGeneration': {}
+        'f:created': {}
+        'f:desiredGeneration': {}
+    manager: virt-controller
+    operation: Update
+    subresource: status
+    time: '2025-04-07T11:13:34Z'
+  namespace: fedora
   finalizers:
-    - kubevirt.io/virtualMachineControllerFinalize
+  - kubevirt.io/virtualMachineControllerFinalize
   labels:
-    app: fedora-harlequin-bug-96
+    app: fedora-demo
     kubevirt.io/dynamic-credentials-support: 'true'
     vm.kubevirt.io/template: fedora-server-small
     vm.kubevirt.io/template.namespace: openshift
@@ -129,20 +129,20 @@ metadata:
     vm.kubevirt.io/template.version: v0.32.2
 spec:
   dataVolumeTemplates:
-    - apiVersion: cdi.kubevirt.io/v1beta1
-      kind: DataVolume
-      metadata:
-        creationTimestamp: null
-        name: fedora-harlequin-bug-96
-      spec:
-        sourceRef:
-          kind: DataSource
-          name: fedora
-          namespace: openshift-virtualization-os-images
-        storage:
-          resources:
-            requests:
-              storage: 30Gi
+  - apiVersion: cdi.kubevirt.io/v1beta1
+    kind: DataVolume
+    metadata:
+      creationTimestamp: null
+      name: fedora-demo
+    spec:
+      sourceRef:
+        kind: DataSource
+        name: fedora
+        namespace: openshift-virtualization-os-images
+      storage:
+        resources:
+          requests:
+            storage: 30Gi
   runStrategy: RerunOnFailure
   template:
     metadata:
@@ -152,7 +152,7 @@ spec:
         vm.kubevirt.io/workload: server
       creationTimestamp: null
       labels:
-        kubevirt.io/domain: fedora-harlequin-bug-96
+        kubevirt.io/domain: fedora-demo
         kubevirt.io/size: small
         network.kubevirt.io/headlessService: headless
     spec:
@@ -160,21 +160,21 @@ spec:
       domain:
         cpu:
           cores: 1
-          sockets: 1
+          sockets: 2
           threads: 1
         devices:
           disks:
-            - disk:
-                bus: virtio
-              name: rootdisk
-            - disk:
-                bus: virtio
-              name: cloudinitdisk
+          - disk:
+              bus: virtio
+            name: rootdisk
+          - disk:
+              bus: virtio
+            name: cloudinitdisk
           interfaces:
-            - macAddress: '02:d2:e1:00:00:06'
-              masquerade: {}
-              model: virtio
-              name: default
+          - macAddress: '02:d2:e1:00:00:0a'
+            masquerade: {}
+            model: virtio
+            name: default
           rng: {}
         features:
           acpi: {}
@@ -186,49 +186,49 @@ spec:
         machine:
           type: pc-q35-rhel9.4.0
         memory:
-          guest: 2Gi
+          guest: 4Gi
         resources: {}
       networks:
-        - name: default
-          pod: {}
+      - name: default
+        pod: {}
       terminationGracePeriodSeconds: 180
       volumes:
-        - dataVolume:
-            name: fedora-harlequin-bug-96
-          name: rootdisk
-        - cloudInitNoCloud:
-            userData: |-
-              #cloud-config
-              user: fedora
-              password: 8x2f-8eok-4di0
-              chpasswd: { expire: False }
-          name: cloudinitdisk
+      - dataVolume:
+          name: fedora-demo
+        name: rootdisk
+      - cloudInitNoCloud:
+          userData: |-
+            #cloud-config
+            user: fedora
+            password: test
+            chpasswd: { expire: False }
+        name: cloudinitdisk
 status:
   conditions:
-    - lastProbeTime: null
-      lastTransitionTime: '2025-04-06T21:09:44Z'
-      status: 'True'
-      type: Ready
-    - lastProbeTime: null
-      lastTransitionTime: null
-      message: All of the VMI's DVs are bound and not running
-      reason: AllDVsReady
-      status: 'True'
-      type: DataVolumesReady
-    - lastProbeTime: null
-      lastTransitionTime: null
-      message: 'cannot migrate VMI: PVC fedora-harlequin-bug-96 is not shared, live migration requires that all PVCs must be shared (using ReadWriteMany access mode)'
-      reason: DisksNotLiveMigratable
-      status: 'False'
-      type: LiveMigratable
-    - lastProbeTime: null
-      lastTransitionTime: null
-      status: 'True'
-      type: StorageLiveMigratable
-    - lastProbeTime: '2025-04-06T21:09:53Z'
-      lastTransitionTime: null
-      status: 'True'
-      type: AgentConnected
+  - lastProbeTime: null
+    lastTransitionTime: '2025-04-07T11:13:26Z'
+    status: 'True'
+    type: Ready
+  - lastProbeTime: null
+    lastTransitionTime: null
+    message: All of the VMI's DVs are bound and not running
+    reason: AllDVsReady
+    status: 'True'
+    type: DataVolumesReady
+  - lastProbeTime: null
+    lastTransitionTime: null
+    message: 'cannot migrate VMI: PVC fedora-demo is not shared, live migration requires that all PVCs must be shared (using ReadWriteMany access mode)'
+    reason: DisksNotLiveMigratable
+    status: 'False'
+    type: LiveMigratable
+  - lastProbeTime: null
+    lastTransitionTime: null
+    status: 'True'
+    type: StorageLiveMigratable
+  - lastProbeTime: '2025-04-07T11:13:34Z'
+    lastTransitionTime: null
+    status: 'True'
+    type: AgentConnected
   created: true
   desiredGeneration: 1
   observedGeneration: 1
@@ -236,8 +236,8 @@ status:
   ready: true
   runStrategy: RerunOnFailure
   volumeSnapshotStatuses:
-    - enabled: true
-      name: rootdisk
-    - enabled: false
-      name: cloudinitdisk
-      reason: 'Snapshot is not supported for this volumeSource type [cloudinitdisk]'
+  - enabled: true
+    name: rootdisk
+  - enabled: false
+    name: cloudinitdisk
+    reason: 'Snapshot is not supported for this volumeSource type [cloudinitdisk]'
